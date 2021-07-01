@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background: #f6f7fb;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  padding: 30px;
+}
+
+#secondary {
+  width: 370px;
+}
+
+.icon {
+  display: inline-block;
+  vertical-align: middle;
+  top: 2px;
+  margin-right: 10px;
+  font-size: 9px;
+}
+
+.active {
+  color: #304cdc!important;
+}
+
+.active:hover {
+  color: #e26143!important;
+}
